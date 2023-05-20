@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		415CD8322A13BA3F00C1E0EE /* CurveTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CD8312A13BA3F00C1E0EE /* CurveTabBarApp.swift */; };
-		415CD8342A13BA3F00C1E0EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CD8332A13BA3F00C1E0EE /* ContentView.swift */; };
 		415CD8362A13BA4000C1E0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415CD8352A13BA4000C1E0EE /* Assets.xcassets */; };
 		415CD8392A13BA4000C1E0EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415CD8382A13BA4000C1E0EE /* Preview Assets.xcassets */; };
 		415CD8432A13BA4000C1E0EE /* CurveTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CD8422A13BA4000C1E0EE /* CurveTabBarTests.swift */; };
 		415CD84D2A13BA4000C1E0EE /* CurveTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CD84C2A13BA4000C1E0EE /* CurveTabBarUITests.swift */; };
 		415CD84F2A13BA4000C1E0EE /* CurveTabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CD84E2A13BA4000C1E0EE /* CurveTabBarUITestsLaunchTests.swift */; };
+		415CD85E2A13C08A00C1E0EE /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CD85D2A13C08A00C1E0EE /* Tab.swift */; };
+		415CD8602A13C54A00C1E0EE /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CD85F2A13C54A00C1E0EE /* TabBar.swift */; };
+		41FFB3DD2A18D324008032AA /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFB3DC2A18D324008032AA /* TabShape.swift */; };
+		41FFB3DF2A1914C9008032AA /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFB3DE2A1914C9008032AA /* TabPosition.swift */; };
+		41FFB3E42A192E6F008032AA /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFB3E32A192E6F008032AA /* TabItem.swift */; };
+		41FFB3E82A193214008032AA /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FFB3E72A193214008032AA /* launchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		415CD82E2A13BA3F00C1E0EE /* CurveTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurveTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		415CD8312A13BA3F00C1E0EE /* CurveTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveTabBarApp.swift; sourceTree = "<group>"; };
-		415CD8332A13BA3F00C1E0EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		415CD8352A13BA4000C1E0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		415CD8382A13BA4000C1E0EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		415CD83E2A13BA4000C1E0EE /* CurveTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,13 @@
 		415CD8482A13BA4000C1E0EE /* CurveTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		415CD84C2A13BA4000C1E0EE /* CurveTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveTabBarUITests.swift; sourceTree = "<group>"; };
 		415CD84E2A13BA4000C1E0EE /* CurveTabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveTabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		415CD85D2A13C08A00C1E0EE /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		415CD85F2A13C54A00C1E0EE /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		41FFB3DC2A18D324008032AA /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		41FFB3DE2A1914C9008032AA /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
+		41FFB3E22A1926D7008032AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		41FFB3E32A192E6F008032AA /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		41FFB3E72A193214008032AA /* launchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +105,13 @@
 		415CD8302A13BA3F00C1E0EE /* CurveTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				41FFB3E22A1926D7008032AA /* Info.plist */,
+				415CD85C2A13C05F00C1E0EE /* View */,
+				415CD85B2A13C02F00C1E0EE /* Model */,
 				415CD8312A13BA3F00C1E0EE /* CurveTabBarApp.swift */,
-				415CD8332A13BA3F00C1E0EE /* ContentView.swift */,
 				415CD8352A13BA4000C1E0EE /* Assets.xcassets */,
 				415CD8372A13BA4000C1E0EE /* Preview Content */,
+				41FFB3E72A193214008032AA /* launchScreen.storyboard */,
 			);
 			path = CurveTabBar;
 			sourceTree = "<group>";
@@ -125,6 +139,25 @@
 				415CD84E2A13BA4000C1E0EE /* CurveTabBarUITestsLaunchTests.swift */,
 			);
 			path = CurveTabBarUITests;
+			sourceTree = "<group>";
+		};
+		415CD85B2A13C02F00C1E0EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				415CD85D2A13C08A00C1E0EE /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		415CD85C2A13C05F00C1E0EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				415CD85F2A13C54A00C1E0EE /* TabBar.swift */,
+				41FFB3DC2A18D324008032AA /* TabShape.swift */,
+				41FFB3DE2A1914C9008032AA /* TabPosition.swift */,
+				41FFB3E32A192E6F008032AA /* TabItem.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41FFB3E82A193214008032AA /* launchScreen.storyboard in Resources */,
 				415CD8392A13BA4000C1E0EE /* Preview Assets.xcassets in Resources */,
 				415CD8362A13BA4000C1E0EE /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				415CD8342A13BA3F00C1E0EE /* ContentView.swift in Sources */,
+				415CD85E2A13C08A00C1E0EE /* Tab.swift in Sources */,
+				41FFB3DF2A1914C9008032AA /* TabPosition.swift in Sources */,
+				41FFB3E42A192E6F008032AA /* TabItem.swift in Sources */,
 				415CD8322A13BA3F00C1E0EE /* CurveTabBarApp.swift in Sources */,
+				415CD8602A13C54A00C1E0EE /* TabBar.swift in Sources */,
+				41FFB3DD2A18D324008032AA /* TabShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,11 +455,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CurveTabBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MJL9QS49T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurveTabBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,11 +484,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CurveTabBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MJL9QS49T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurveTabBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
